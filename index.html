@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Video Processor</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1>Video Processor</h1>
+	<input type="file" id="videoInput" accept="video/*">
+	<button id="processButton">Process Video</button>
+	<a id="downloadLink" style="display:none;">Download Processed Video</a>
+
+	<script src="https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.10.0/dist/ffmpeg.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
